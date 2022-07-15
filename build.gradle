@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 group 'com.everytechdimension'
-version '1.0.'+versioning.info.commit
+version '1.0.'+versioning.info.commit.substring(0, 6)
 sourceCompatibility = 1.8
 
 jar {
